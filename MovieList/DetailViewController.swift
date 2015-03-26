@@ -25,6 +25,8 @@ class DetailViewController: UIViewController {
         if let detail: AnyObject = self.detailItem {
             if let label = self.detailDescriptionLabel {
                 label.text = detail.valueForKey("timeStamp")!.description
+                
+                //This is a  test line to see the commit
             }
         }
     }
